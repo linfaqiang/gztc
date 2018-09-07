@@ -1,0 +1,513 @@
+.clearfix {
+  zoom: 1;
+  *zoom: 1;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden
+}
+
+/* 参加活动 */
+.aj-box {
+  width: 100%;
+  margin-bottom: 1.574074rem;
+}
+.aj-container {
+  width: 100%;
+  background: #fff;
+  text-align: left;
+  padding: 0.555556rem 0.462963rem;
+  border-bottom: 1px solid #dbdbdb;
+}
+.aj-activity-cost-num {
+  color: #ed0000;
+  font-size: 0.314815rem;
+}
+.aj-activity-cost {
+  font-size: 0.314815rem;
+  color: #000;
+}
+.aj-container-title {
+  font-size: 0.444444rem;
+  color: #000;
+  line-height: 1.4;
+}
+.aj-container-item {
+  margin-top: 0.185185rem;
+}
+.aj-remine-info {
+  font-size: 0.277778rem;
+  color: #474747;
+}
+
+.aj-btn-box {
+  position: fixed;
+  width: 100%;
+  height: 1.435185rem;
+  bottom: 0;
+  background: #f9f9f9;
+}
+.ad-btn {
+  width: 8.148148rem;
+  height: 0.925926rem;
+  line-height: 0.925926rem;
+  margin: 0 auto;
+  background: #fdcc07;
+  font-size: 0.37037rem;
+  margin-top: 0.222222rem;
+     -moz-border-radius: 0.074074rem;
+       -o-border-radius: 0.074074rem;
+  -webkit-border-radius: 0.074074rem;
+          border-radius: 0.074074rem;
+}
+
+/* 表单通用部分 */
+.com-form-top {
+  margin-top: 0.277778rem;
+}
+.com-text-center {
+  text-align: center;
+}
+.com-form {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
+  padding: 0.462963rem 0.740741rem;
+}
+.com-form dl dd {
+  width: 100%;
+  position: relative;
+  font-size: 0.37037rem;
+  border-bottom: 1px solid #2d2d2d;
+}
+.com-form dl dd:last-child {
+  border-bottom: none;
+}
+.com-form dl dd label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2.037037rem;
+  line-height: 1.296296rem;
+}
+.com-form dl dd label span {
+  color: #fdcc07;
+}
+.com-form dl dd input[type=text] {
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  height: 1.296296rem;
+  padding: .185185rem 0 .185185rem 2.037037rem;
+  background-color: transparent;
+}
+.com-textarea-box {
+  position: relative;
+  text-align: left;
+  height: 4.01481rem;
+  padding-bottom: .4rem;
+  padding-top: 1.296296rem;
+}
+.com-form dl dd textarea {
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 2.262963rem;
+  padding: 0 0 0.259259rem 0;
+  background-color: transparent;
+}
+.com-textarea-box .words-num {
+  position: absolute;
+  right: 0;
+  bottom: -0.185185rem;
+  color: #929292;
+}
+
+/* 服务单场地列表 */
+.pol-search-box {
+  width: 100%;
+  height: 1.388889rem;
+  padding: 0 0.648148rem;
+}
+.pol-search-item {
+  width: 2.037037rem;
+  height: 0.648148rem;
+  line-height: 0.648148rem;
+  border: 1px solid #ddd;
+  float: left;
+  background: #fff;
+  color: #404040;
+  font-size: 0.333333rem;
+  margin-top: 0.37037rem;
+  margin-right: 0.277778rem;
+     -moz-border-radius: 0.074074rem;
+       -o-border-radius: 0.074074rem;
+  -webkit-border-radius: 0.074074rem;
+          border-radius: 0.074074rem;
+}
+.pol-active-item {
+  border: 1px solid #000;
+  background: #fdcc07;
+  color: #000;
+}
+.pol-list-box {
+  width: 100%;
+  padding: 0 0.648148rem;
+  border-top: 1px solid #dbdbdb;
+  background: #fff;
+}
+.pol-list-item {
+  width: 100%;
+  height: 3.333333rem;
+  border-bottom: 1px solid #dbdbdb;
+  position: relative;
+  padding: 0.462963rem 0.37037rem;
+}
+.pol-list-item-img {
+  width: 2.157407rem;
+  height: 2.157407rem;
+  float: left;
+}
+.pol-list-item-describe {
+  float: left;
+  margin-left: 0.555556rem;
+  text-align: left; 
+}
+.pol-lid-option {
+  font-size: 0.314815rem;
+  line-height: 1.2;
+  margin-bottom: 0.185185rem;
+  color: #3b3b3b;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.pol-lid-name {
+  font-size: 0.407407rem;
+  margin-bottom: 0.27037rem;
+}
+.pol-lid-submit-time {
+  color: #636363;
+}
+.pol-statu-tip {
+  position: absolute;
+  top: 0.58963rem;
+  left: 0.241111rem;
+  background: #fdcc07;
+  font-size: 0.259259rem;
+  padding: 0.037037rem 0.092593rem;
+     -moz-border-radius: 0.074074rem;
+       -o-border-radius: 0.074074rem;
+  -webkit-border-radius: 0.074074rem;
+          border-radius: 0.074074rem;
+}
+.pol-statu-tip-u {
+  color: #fff;
+  background: #9a9a9a;
+}
+
+/** 服务单场地详情 **/
+.pod-c-base {
+  width: 100%;
+  background: #fff;
+  padding: 0.648148rem 0.925926rem;
+}
+.pod-c-img {
+  width: 2.157407rem;
+  height: 2.157407rem;
+  float: left;
+}
+.pod-c-describe {
+  width: 5.555556rem;
+  text-align: left;
+  float: right;
+}
+.pod-cd-name {
+  font-size: 0.407407rem;
+  line-height: 1;
+  margin-bottom: 0.37037rem;
+}
+.pod-cd-option {
+  font-size: 0.314815rem;
+  line-height: 1;
+  margin-bottom: 0.185185rem;
+}
+.pod-cb-info {
+  width: 100%;
+  margin-bottom: 0.37037rem;
+}
+.pod-cd-item {
+  width: 100%;
+  font-size: 0.314815rem;
+  margin-top: 0.185185rem;
+  text-align: left;
+}
+.pod-status-info {
+  width: 100%;
+  background: #fff;
+  margin-top: 0.277778rem;
+  text-align: left;
+  padding: 0.462963rem 0.925926rem;
+}
+.pod-cd-item-code {
+  float: left;
+}
+.pod-cd-item-img {
+  width: 1.574074rem;
+  height: 1.574074rem;
+  float: left;
+}
+.pod-cd-item-code-num {
+  float: left;
+  font-size: 0.509259rem;
+}
+.pod-cd-item-state {
+  float: left;
+  margin-left: 0.740741rem;
+  background: #fecd05;
+  padding: 0.037037rem 0.092593rem;
+     -moz-border-radius: 0.074074rem;
+       -o-border-radius: 0.074074rem;
+  -webkit-border-radius: 0.074074rem;
+          border-radius: 0.074074rem;
+}
+.pod-cd-pay-state {
+  background: #f5f5f5;
+  height: 0.740741rem;
+  line-height: 0.740741rem;
+  padding-left:  0.277778rem;
+}
+.pod-cd-item-r {
+  float: right;
+  width: 3.333333rem;
+}
+.pod-cd-option-r {
+  float: right;
+}
+
+/* 活动单详情 */
+.poa-c-base {
+  padding: 0.462963rem;
+  text-align: left;
+  background: #fff;
+}
+.poa-c-title {
+  font-size: 0.444444rem;
+}
+.poa-c-item {
+  font-size: 0.314815rem;
+  margin-top: 0.277778rem;
+}
+.pod-c-info {
+  width: 100%;
+  background: #fff;
+  margin-top: 0.277778rem;
+  padding: 0.462963rem;
+  text-align: left;
+}
+.pod-cd-item-state-u {
+  background: #9c9c9c;
+  color: #fff;
+}
+
+/* 预约看房单 */
+.hol-c-list {
+  padding: 0 0.648148rem;
+  background: #fff;
+}
+.pol-c-item {
+  width: 100%;
+  padding: 0.555556rem 0;
+  border-bottom: 1px solid #dbdbdb;
+}
+.pol-c-i-img {
+  width: 2.157407rem;
+  height: 2.157407rem;
+  margin-left: 0.185185rem;
+  float: left;
+}
+.pol-c-i-describe {
+  float: left;
+  text-align: left;
+  width: 5.277778rem;
+  margin-left: 0.555556rem;
+  color: #3b3b3b;
+}
+.pol-c-i-title {
+  font-size: 0.407407rem;
+  overflow: hidden;
+  line-height: 1;
+  margin-bottom: 0.277778rem;
+  white-space: nowrap;
+}
+.pol-c-i-option {
+  font-size: 0.314815rem;
+  overflow: hidden;
+  line-height: 1;
+  white-space: nowrap;
+  margin-bottom: 0.185185rem;
+}
+
+/* 看房单详情 */
+.hod-c-base {
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  padding: 0.925926rem 0.648148rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+.hod-c-b-img {
+  float: left;
+  width: 2.157407rem;
+  height: 2.157407rem;
+}
+.hod-c-b-describe {
+  width: 5.37037rem;
+  float: left;
+  margin-left: 0.555556rem;
+  color: #3b3b3b;
+}
+.hod-c-b-title {
+  font-size: 0.407407rem;
+  line-height: 1;
+  margin-bottom: 0.277778rem;
+}
+.hod-c-b-option {
+  font-size: 0.314815rem;
+  margin-bottom: 0.185185rem;
+}
+.hod-c-b-project-t {
+  font-size: 0.314815rem;
+  margin-top: 0.555556rem;
+  margin-bottom: 0.185185rem;
+  font-size: 0.314815rem;
+}
+.hod-c-b-p-describe {
+  color: #424242;
+}
+.hod-c-info {
+  text-align: left;
+  width: 100%;
+  background: #fff;
+  padding: 0.925926rem 0.648148rem;
+  margin-top: 0.277778rem;
+  border-bottom: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+}
+.hod-c-b-option-r {
+  width: 2.592593rem;
+  float: right;
+}
+
+/* 选择支付页面 */
+.ps-p-for {
+  margin-top: 20%;
+  font-size: 0.333333rem;
+}
+.ps-p-money {
+  margin-top: 0.740741rem;
+  font-size: 0.333333rem;
+}
+.ps-p-online-btn {
+  font-size: 0.333333rem;
+  height: 0.925926rem;
+  line-height: 0.925926rem;
+  width: 7.407407rem;
+  background: #fbca03;
+  margin: 0 auto;
+  margin-top: 2.314815rem;
+     -moz-border-radius: 0.074074rem;
+       -o-border-radius: 0.074074rem;
+  -webkit-border-radius: 0.074074rem;
+          border-radius: 0.074074rem;
+}
+.ps-p-underline-btn {
+  font-size: 0.333333rem;
+  height: 0.925926rem;
+  line-height: 0.925926rem;
+  width: 7.407407rem;
+  background: #fff;
+  border: 1px solid #fbca03;
+  margin: 0 auto;
+  margin-top: 0.462963rem;
+     -moz-border-radius: 0.074074rem;
+       -o-border-radius: 0.074074rem;
+  -webkit-border-radius: 0.074074rem;
+          border-radius: 0.074074rem;
+}
+
+/* 支付完成页面 */
+.hp-p-success {
+  font-size: 0.555556rem;
+  margin-top: 45%;
+}
+.hp-p-complement-btn {
+  font-size: 0.333333rem;
+  height: 0.925926rem;
+  line-height: 0.925926rem;
+  width: 7.407407rem;
+  background: #fbca03;
+  margin: 0 auto;
+  margin-top: 2.314815rem;
+     -moz-border-radius: 0.074074rem;
+       -o-border-radius: 0.074074rem;
+  -webkit-border-radius: 0.074074rem;
+          border-radius: 0.074074rem;
+}
+
+/** 付费服务单 **/
+.sol-search-box {
+  padding: 0 0.37037rem 0.37037rem 0.37037rem;
+}
+.sol-c-list {
+  width: 100%;
+  padding: 0 0.555556rem;
+  background: #fff;
+  text-align: left;
+}
+.sol-c-item {
+  width: 100%;
+  padding: 0.555556rem 0;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+}
+.sol-c-item-option {
+  margin-bottom: 0.185185rem;
+}
+.sol-c-title {
+  font-size: 0.407407rem;
+  margin-bottom: 0.37037rem;
+}
+.sol-c-t-small {
+  font-size: 0.314815rem;
+  margin-left: 0.37037rem;
+}
+.sol-c-statu {
+  position: absolute;
+  top: 0.555556rem;
+  right: 0.185185rem;
+  background: #fdcc07;
+  font-size: 0.259259rem;
+  line-height: 1.2;
+  padding: 0.037037rem 0.074074rem;
+  color: #000;
+     -moz-border-radius: 0.074074rem;
+       -o-border-radius: 0.074074rem;
+  -webkit-border-radius: 0.074074rem;
+          border-radius: 0.074074rem;
+}
+.sol-c-statu-a {
+  background: #9b9b9b;
+  color: #fff;
+}
